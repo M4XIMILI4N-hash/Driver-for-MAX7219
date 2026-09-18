@@ -15,7 +15,7 @@ MAX7219
 
 *All of the GND pins must be connected*
 
-All of the GND pins must be connected 
+
 
 
 Quick setup:
