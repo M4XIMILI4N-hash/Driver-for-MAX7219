@@ -7,11 +7,13 @@ MAX7219
 74AHCT125PW-Q100118 - Logic level shifter (LLS) (due to the fact that esp operates on 3.3V and Max operates on 5V)
 
 
-Pinout:
-ESP32 ============ LLS ======================= MAX7219
-P18 CLK =====IN pin 2A/ OUT pin 2Y============ pin 13 CLK
-P5 CS =======IN pin 3A/ OUT pin 3Y============ pin 12 LOAD(CS)
-P23 DIN =====IN pin 1A/ OUT pin 1Y============ pin 1 DIN
+**Pinout:**
+`ESP32` =========== `LLS` ========================== `MAX7219`
+* `P18 CLK` === `IN pin 2A` / `OUT pin 2Y` === `pin 13 CLK`
+* `P5 CS` ===== `IN pin 3A` / `OUT pin 3Y` === `pin 12 LOAD(CS)`
+* `P23 DIN` === `IN pin 1A` / `OUT pin 1Y` === `pin 1 DIN`
+
+*All of the GND pins must be connected*
 
 All of the GND pins must be connected 
 
