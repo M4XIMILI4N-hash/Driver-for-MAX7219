@@ -19,7 +19,7 @@
 ```python
 import machine
 from machine import SPI, Pin
-from max_driver import Max_Driver
+from max_driver import MAX7219_driver
 
 # 1. Initializing SPI (use your pins)
 spi = SPI(1, baudrate=10000000, polarity=0, phase=0, bits=8, sck=Pin(18), mosi=Pin(23))
